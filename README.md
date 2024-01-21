@@ -12,6 +12,14 @@ class prompt) in a given scene. This enables the ‘user-friendly’ part of the
 second task is to edit the pose of the object by taking user poses (e.g. Azimuth +10 degrees, Polar -5
 degrees). The final generated scene should look realistic and composite.
 
+Tasks:
+1. Task1. Take the input scene and the text prompt from the command line argument and outputs an image with a red mask on all pixels where the object (denoted in the text prompt) was present
+2. Task2. The second task is to change the pose of the segmented object by the relative angles given by the user. You can use a consistent direction as positive azimuth and polar angle change and mention what you used.
+
+The generated image:
+a. Should preserve the scene (background)
+b. Should adhere to the relative angles given by the user
+
 ## Usage
 ```
 pip install -r requirements.txt
