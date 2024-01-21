@@ -11,3 +11,10 @@ user-friendly pose edit functionality. The first task is to segment an object (d
 class prompt) in a given scene. This enables the ‘user-friendly’ part of the problem statement. The
 second task is to edit the pose of the object by taking user poses (e.g. Azimuth +10 degrees, Polar -5
 degrees). The final generated scene should look realistic and composite.
+
+## Usage
+pip install -r requirements.txt
+pip install -e taming-transformers/
+pip install -e CLIP/
+pip install -e GroundingDINO/
+
