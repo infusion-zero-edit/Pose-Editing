@@ -25,7 +25,7 @@ mkdir checkpoints
 wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
 wget https://zero123.cs.columbia.edu/assets/zero123-xl.ckpt
 ```
-Running Task-1
+Example Run Task-1
 ```
 python task1.py --image ./inputs/office_chair.jpg --class_name "office chair" --output ./generated_office_chair.png
 ```
