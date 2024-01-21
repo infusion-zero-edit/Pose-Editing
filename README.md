@@ -17,8 +17,8 @@ Tasks:
 2. Task2. The second task is to change the pose of the segmented object by the relative angles given by the user. You can use a consistent direction as positive azimuth and polar angle change and mention what you used.
 
 The generated image:
-a. Should preserve the scene (background)
-b. Should adhere to the relative angles given by the user
+1. Should preserve the scene (background)
+2. Should adhere to the relative angles given by the user
 
 ## Usage
 ```
