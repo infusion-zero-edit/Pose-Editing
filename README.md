@@ -19,3 +19,11 @@ pip install -e taming-transformers/
 pip install -e CLIP/
 pip install -e GroundingDINO/
 ```
+Create folder checkpoints 
+```
+mkdir checkpoints
+wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
+wget https://zero123.cs.columbia.edu/assets/zero123-xl.ckpt
+```
+
+
