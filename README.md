@@ -13,8 +13,9 @@ second task is to edit the pose of the object by taking user poses (e.g. Azimuth
 degrees). The final generated scene should look realistic and composite.
 
 ## Usage
+```
 pip install -r requirements.txt
 pip install -e taming-transformers/
 pip install -e CLIP/
 pip install -e GroundingDINO/
-
+```
