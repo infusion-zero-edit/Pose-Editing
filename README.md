@@ -25,5 +25,13 @@ mkdir checkpoints
 wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
 wget https://zero123.cs.columbia.edu/assets/zero123-xl.ckpt
 ```
-
+Running Task-1
+```
+python task1.py --image ./inputs/office_chair.jpg --class_name "office chair" --output ./generated_office_chair.png
+```
+Example Run Task-2
+```
+python task2.py --image ./inputs/office_chair.jpg --class_name "office chair" --azimuth +72 --polar +0 --output ./generated_office_chair.png
+```
+We have used zero123-xl.ckpt and 105000.ckpt interchangeably to get best results which is stored in the folder outputs. For example lamp example gives best output with 105000.ckpt however zero123-xl.ckpt does not able to produce lamp and it gives random image. While in case of office chair the checkpoint 105000.ckpt produce distorted image while zero123-xl.ckpt produces better image.
 
