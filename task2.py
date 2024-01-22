@@ -564,7 +564,7 @@ def find_object_position(original_image, rotated_object):
 
     # Get the top-left corner coordinates of the matched region
     original_object_x, original_object_y = bbox[:2]
-    return original_object_x, original_object_y
+    return original_object_x+10, original_object_y+10
 
 
 if __name__ == '__main__':
@@ -614,5 +614,3 @@ if __name__ == '__main__':
     
     image_path = os.path.join(output_dir, f'generated_mask_{"_".join(args.output.split("_")[1:]).replace(".png", "")}.png')
     output_images[0].save(image_path)  
-    
-    rotated_image.save('./rotated.png')
