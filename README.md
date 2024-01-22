@@ -44,7 +44,6 @@ python task2.py --image ./inputs/office_chair.jpg --class_name "office chair" --
 We have used zero123-xl.ckpt and 105000.ckpt interchangeably to get best results which is stored in the folder outputs. For example lamp example gives best output with 105000.ckpt however zero123-xl.ckpt does not able to produce lamp and it gives random image. While in case of office chair the checkpoint 105000.ckpt produce distorted image while zero123-xl.ckpt produces better image.
 
 ## Results
-<<<<<<< HEAD
 ```
 Note: Lamp is generated from 105000.ckpt and other are generated from zero123-xl.ckpt. 
 
@@ -55,7 +54,3 @@ python task2.py --image ./inputs/lamp.jpg --class_name "lamp" --azimuth -6 --pol
 python task2.py --image ./inputs/flower_vase.jpg --class_name "flower vase" --azimuth +12 --polar +0 --output ./generated_flower_vase.png
 python task2.py --image ./inputs/chair_1.jpg --class_name "chair_1" --azimuth +32 --polar +0 --output ./generated_chair_1.png
 ```
-
-
-=======
->>>>>>> 401c833e7955ebb2e1919f4aa9141a7d198b0311
