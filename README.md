@@ -54,3 +54,31 @@ python task2.py --image ./inputs/lamp.jpg --class_name "lamp" --azimuth -6 --pol
 python task2.py --image ./inputs/flower_vase.jpg --class_name "flower vase" --azimuth +12 --polar +0 --output ./generated_flower_vase.png
 python task2.py --image ./inputs/chair_1.jpg --class_name "chair_1" --azimuth +32 --polar +0 --output ./generated_chair_1.png
 ```
+| Input                               | SAM Output                          | Rotated object                     |
+| ----------------------------------- | ----------------------------------- |----------------------------------- |
+| ![chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/ad6dc84b-24b5-4e61-a164-4febacc4f7d4) |  ![generated_mask_chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/3a06e97e-912b-4618-b59a-42747cfff772) | ![generated_chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/5e3ade2b-fec0-4c55-a37f-cd275c871f1e) |
+| ![chair(1)](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/b829d968-5395-4d1e-b539-3e55ad0556b3) | ![generated_mask_chair_1](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/7fc8a82f-ce75-406b-8f5d-46258616ba6d) | ![generated_chair_1](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/0356baa8-d11b-4b79-afbb-0ec6285567f9) |
+| ![sofa](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/addf01ab-51c9-4575-9343-a206e7515052) | ![generated_mask_sofa](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/77818f32-3e8a-486c-b68c-2012de8dc910) | ![generated_sofa](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/47a70068-7b43-497a-a043-ae7b75dad236) | 
+| ![laptop](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/378460f4-66e8-4bd4-a009-77ec6b3cb64c) | ![generated_mask_laptop](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/bc05ef20-d713-4f6a-8351-0f4b2ac0aefc) | ![generated_laptop](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/0555e94d-2a50-4f8a-af8b-6d6ef563d68b) | 
+| ![lamp](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/e309b680-e77a-472b-b136-e7aa78b187ec)| ![generated_mask_lamp](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/40fbdd47-5856-4236-bf11-cb187c963d86)| ![generated_lamp](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/0eadb2a4-af6a-42dc-a914-b1418bb299b2) | 
+| ![flower vase](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/05a1bea0-ea82-4aa2-b557-2e54610ce15c) | ![generated_mask_flower_vase](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/36bccc9d-e9c2-44d9-a69d-53c18a76e9fa) | ![generated_flower_vase](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/025e5bed-d91c-47eb-b9b0-7e48a5387db5) |
+| ![office chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/0f02d6b8-025c-427b-af11-d9b9885624af) | ![generated_mask_office_chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/d942f099-3ebc-428a-9497-fa2d395869a0)|![generated_office_chair](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/68d819e2-ee5e-4d10-b46a-c499a5ccabee)|
+| ![table](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/5e3bf784-6e81-473c-b3a2-8d32e6eb4304) | ![generated_mask_table](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/81c9fa9e-0348-438f-bd34-69cf7f1e9548)| ![generated_table](https://github.com/infusion-zero-edit/Pose-Editing/assets/122880654/99ba7cca-6015-47c4-a74e-ddabb98c099b)|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
